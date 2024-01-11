@@ -362,6 +362,6 @@ const lib = {
 	toHTML,
 };
 
-window.slackMarkdown = lib;
+global.slackMarkdown = lib;
 
 module.exports = lib;
