@@ -355,9 +355,13 @@ function toHTML(source, opts) {
 	return _htmlOutput(_parser(source, state), state);
 }
 
-module.exports = {
+const lib = {
 	rules,
 	rulesSlack,
 	rulesUniversal,
 	toHTML,
 };
+
+window.slackMarkdown = lib;
+
+module.exports = lib;
