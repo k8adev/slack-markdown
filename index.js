@@ -363,5 +363,6 @@ const lib = {
 };
 
 global.slackMarkdown = lib;
+console.warn(global)
 
 module.exports = lib;
